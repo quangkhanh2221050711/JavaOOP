@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Bai4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -7,32 +6,20 @@ public class Bai4 {
         System.out.println("nhap so nguyen n :");
         n = sc.nextInt();
         switch (n) {
-            case 1: System.out.println("thang 1"); 
+            case 1: System.out.println("thu 2"); 
                 break;
-            case 2: System.out.println("thang 2");    
+            case 2: System.out.println("thu 3");    
                 break;
-            case 3: System.out.println("thang 3");
+            case 3: System.out.println("thu 4");
                 break;
-            case 4: System.out.println("thang 4");
+            case 4: System.out.println("thu 5");
                 break;
-            case 5: System.out.println("thang 5"); 
+            case 5: System.out.println("thu 6"); 
                 break;
-            case 6: System.out.println("thang 6");    
+            case 6: System.out.println("thu 7");    
                 break;
-            case 7: System.out.println("thang 7");
+            default: System.out.println(" khong la ngay nao");
                 break;
-            case 8: System.out.println("thang 8");
-                break;
-            case 9: System.out.println("thang 9"); 
-                break;
-            case 10: System.out.println("thang 10");    
-                break;
-            case 11: System.out.println("thang 11");
-                break;
-            case 12: System.out.println("thang 12");
-                break;
-            default: System.out.println(" nhap sai");
-                break;
-        }
+        }while(Ngay>0&&Ngay<8);
     }
 }
