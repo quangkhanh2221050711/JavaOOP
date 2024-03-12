@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class slide81 {
+public class Slide81 {
      public static void main(String[] args) {
         int m,n;
         Scanner sc  = new Scanner(System.in);
