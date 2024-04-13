@@ -1,5 +1,8 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+public class MainClass {
+    public static void main(String[] args) {
+        HinhTron hinhTron = new HinhTron();
+        HinhTru hinhTru = new HinhTru();
+        hinhTron.xuatThongTin();
+        hinhTru.xuatThongTin();
     }
 }
